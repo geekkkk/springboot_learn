@@ -18,6 +18,7 @@ public class Test {
     @Autowired
     private TestService service;
 
+
     @GetMapping("/test")
     public String foo() throws Exception {
         service.test();
